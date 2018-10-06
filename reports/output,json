@@ -1,0 +1,206 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "_Sucessful Login scenario",
+        "description": "",
+        "id": "-login-test;-sucessful-login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 66832898311,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am able to access magento webpage",
+            "match": {
+              "location": "Steps.i_am_able_to_access_magento_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66354089372,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I update the username as \"natarajan.ramanathan93@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natarajan.ramanathan93@gmail.com",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.i_update_the_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124290844,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I update the password as \"Welcome123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome123",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.i_update_the_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114730620,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Steps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7730910458,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should find the magento id as \"ID: MAG003417822\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ID: MAG003417822",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.i_should_find_the_magento_id_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Tag2"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "_Invalid login",
+        "description": "",
+        "id": "-login-test;-invalid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 66220284022,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am able to access magento webpage",
+            "match": {
+              "location": "Steps.i_am_able_to_access_magento_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30999797067,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I update the username as \"natarajan.ramanathan93@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natarajan.ramanathan93@gmail.com",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.i_update_the_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110583797,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I update the password as \"Welcome3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome3",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.i_update_the_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5142508126,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on the login button",
+            "match": {
+              "location": "Steps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33940787537,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see the error message as \"Invalid login or password.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid login or password.",
+                  "offset": 35
+                }
+              ],
+              "location": "Steps.i_should_see_the_error_message_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Tag3"
+          }
+        ]
+      }
+    ],
+    "name": "_Login Test",
+    "description": "This features talks about the positive and negative login scenario\u0027s",
+    "id": "-login-test",
+    "keyword": "Feature",
+    "uri": "Test.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Tag1"
+      }
+    ]
+  }
+]
